@@ -163,7 +163,7 @@ const App: Component = () => {
 
   return (
     <main class="p-8 min-h-screen dark:bg-slate-600 flex gap-6 flex-wrap md:flex-nowrap">
-      <div class="flex-1" style="min-width: 450px">
+      <div class="flex-1 md:min-w-[450px]">
         <h1 class="text-5xl mb-12 text-white font-head">Media Hoarder</h1>
         <div class="flex flex-col gap-4 mb-8 md:mb-8 lg:mb-16">
           <div class="flex flex-col gap-2">
@@ -343,7 +343,7 @@ const App: Component = () => {
           )}
         </div>
       </div>
-      <div class="md:mt-16 w-full" style="max-width: 900px">
+      <div class="md:mt-16 w-full max-w-[900px]">
         <canvas ref={chartElmnt}></canvas>
       </div>
     </main>
